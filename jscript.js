@@ -94,7 +94,7 @@ let answer = [
     "Quraisy"
 
 ]
-let surah = ["Al-Nas","Al-Falaq","Al-Ikhlas","Al-Kafirun","An-Nasr","Al-Kausar","Al-Ma'un","Quraisy"]
+let surah = ["Al-Nas","Al-Falaq","Al-Ikhlas","Al-Lahab","Al-Kafirun","An-Nasr","Al-Kausar","Al-Ma'un","Quraisy"]
 let total_quest = ayat.length;
 
 let correct = document.getElementById("correct"); 
