@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Scheherazade+New&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Match Surah</title>
+</head>
+<body>
+    <div class="judul">
+        <img src="img-icon.png" alt="icon">
+    </div>
+    <div class="content">
+        <div class="box-ayat">
+            <p id="ayat" class="ayat">فَلْيَعْبُدُوا۟ رَبَّ هَـٰذَا ٱلْبَيْتِ</p>
+            <p id="terjemah" class="terjemah">maka hendaklah mereka menyembah Tuhan (pemilik) rumah ini (Ka‘bah)</p>
+        </div>
+        <div class="pilgan">
+            <button id="a" onclick="cek('a')" >Al-Quraisy</button>
+            <button id="b" onclick="cek('b')">Al-Kafirun</button>
+            <button id="c" onclick="cek('c')">Ad-Dhuha</button>
+            <button id="d" onclick="cek('d')">Al-Lail</button>
+        </div>
+    </div>
+    <div class="next">
+        <div class="garis-tipis"></div>
+        <button onclick="next()">Next</button>
+        <div class="garis-tipis"></div>
+    </div>
+</body>
+<script src="jscript.js"></script>
+</html>

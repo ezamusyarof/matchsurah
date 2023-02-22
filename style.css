@@ -1,0 +1,103 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+}
+body .judul, .content, .next {
+    width: 80%;
+    background-color: rgb(0, 0, 0);
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+body .judul img {
+    width: 400px;
+}
+body .content .box-ayat {
+    margin-bottom: 30px;
+    width: 100%;
+    background-color:  rgba(138, 213, 209, 0.25);
+    border: 2px solid #8AD5D1;
+    border-radius: 20px;
+    color: #C9F3F1;
+    text-align: center;
+}
+body .content .box-ayat:hover {
+    box-shadow: 0px 0px 20px 2px rgba(138, 213, 209, 0.5);
+}
+body .content .box-ayat .ayat {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: 'Scheherazade New', serif;
+}
+body .content .box-ayat .terjemah {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+body .content .pilgan {
+    width: 90%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+body .content .pilgan button {
+    background: linear-gradient(124.35deg, rgba(165, 243, 239, 0.85) 17.93%, rgba(102, 175, 171, 0.85) 65.75%);
+    border-color: transparent;
+    width: 45%;
+    height: 45px;
+    margin: 15px 0px;
+    cursor: pointer;
+    color: black;
+    font-size: 16px;
+    font-family: 'Open Sans', serif;
+}
+body .content .pilgan button:hover {
+    background: linear-gradient(124.35deg, #A5F3EF 17.93%, #66AFAB 50%);
+    box-shadow: 0px 0px 30px 8px rgba(138, 213, 209, 0.5);
+}
+body .next .garis-tipis {
+    width: 5px;
+    height: 55px;
+    background-color: #8AD5D1;
+}
+body .next button {
+    width: 200px;
+    border-color: transparent;
+    background-color: rgba(138, 213, 209, 0.25);
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    color: #C9F3F1;
+    height: 80%;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+body .next button:hover {
+    background-color: rgba(138, 213, 209, 0.35);
+}
+@media screen and (max-width: 700px) {
+    body .content .pilgan button {
+        width: 100%;
+    }
+    body .judul img {
+        width: 55%;
+    }
+    body .content {
+        margin-top: 0px;
+    }
+    body .content .box-ayat .ayat {
+        margin-top: 10px;
+        font-size: 20px;
+        font-family: 'Scheherazade New', serif;
+    }
+}
+@media screen and (min-width: 1000px) {
+    body .content {
+        width: 50%;
+    }
+}
