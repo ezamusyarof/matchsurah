@@ -1,85 +1,104 @@
 let ayat = [
-    "اَيَحْسَبُ اَنْ لَّنْ يَّقْدِرَ عَلَيْهِ اَحَدٌ",
-    "اَيَحْسَبُ اَنْ لَّمْ يَرَهٗٓ اَحَدٌۗ",
-    "وَالَّذِيْنَ كَفَرُوْا بِاٰيٰتِنَا هُمْ اَصْحٰبُ الْمَشْـَٔمَةِۗ",
-    "وَالْقَمَرِ اِذَا تَلٰىهَاۖ",
-    "قَدْ اَفْلَحَ مَنْ زَكّٰىهَاۖ",
-    "كَذَّبَتْ ثَمُوْدُ بِطَغْوٰىهَآ",
-    "وَالشَّمْسِ وَضُحٰىهَاۖ",
+    "قُلْ اَعُوْذُ بِرَبِّ النَّاسِۙ",
 
-    "اِنَّ سَعْيَكُمْ لَشَتّٰىۗ",
-    "وَاَمَّا مَنْۢ بَخِلَ وَاسْتَغْنٰىۙ",
-    "فَسَنُيَسِّرُهٗ لِلْعُسْرٰىۗ",
-    "وَمَا يُغْنِيْ عَنْهُ مَالُهٗٓ اِذَا تَرَدّٰىٓۙ",
-    "اِنَّ عَلَيْنَا لَلْهُدٰىۖ",
-    "وَاِنَّ لَنَا لَلْاٰخِرَةَ وَالْاُوْلٰىۗ",
-    "فَاَنْذَرْتُكُمْ نَارًا تَلَظّٰىۚ",
-    "وَسَيُجَنَّبُهَا الْاَتْقَىۙ",
-    "وَلَسَوْفَ يَرْضٰى",
+    "قُلْ اَعُوْذُ بِرَبِّ الْفَلَقِۙ",
+    "وَمِنْ شَرِّ حَاسِدٍ اِذَا حَسَدَ",
 
-    "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلٰىۗ",
-    "وَلَلْاٰخِرَةُ خَيْرٌ لَّكَ مِنَ الْاُوْلٰىۗ",
-    "فَاَمَّا الْيَتِيْمَ فَلَا تَقْهَرْۗ",
-    "وَاَمَّا السَّاۤىِٕلَ فَلَا تَنْهَرْ",
-    "وَاَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ",
+    "قُلْ هُوَ اللّٰهُ اَحَدٌۚ",
+    "اَللّٰهُ الصَّمَدُۚ",
+
+    "تَبَّتْ يَدَآ اَبِيْ لَهَبٍ وَّتَبَّۗ",
+    "مَآ اَغْنٰى عَنْهُ مَالُهٗ وَمَا كَسَبَۗ",
+    "سَيَصْلٰى نَارًا ذَاتَ لَهَبٍۙ",
+
+    "اِذَا جَاۤءَ نَصْرُ اللّٰهِ وَالْفَتْحُۙ",
+    "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُۗ",
+
+    "قُلْ يٰٓاَيُّهَا الْكٰفِرُوْنَۙ",
+    "لَآ اَعْبُدُ مَا تَعْبُدُوْنَۙ",
+    "لَكُمْ دِيْنُكُمْ وَلِيَ دِيْنِ",
+
+    "اِنَّآ اَعْطَيْنٰكَ الْكَوْثَرَۗ",
+    "فَصَلِّ لِرَبِّكَ وَانْحَرْۗ",
+    "اِنَّ شَانِئَكَ هُوَ الْاَبْتَرُ",
+
+    "اَرَءَيْتَ الَّذِيْ يُكَذِّبُ بِالدِّيْنِۗ",
+    "فَوَيْلٌ لِّلْمُصَلِّيْنَۙ الَّذِيْنَ هُمْ عَنْ صَلَاتِهِمْ سَاهُوْنَۙ",
+    
+    "لِاِيْلٰفِ قُرَيْشٍۙ",
+    "فَلْيَعْبُدُوْا رَبَّ هٰذَا الْبَيْتِۙ",
+    "الَّذِيْٓ اَطْعَمَهُمْ مِّنْ جُوْعٍ ەۙ وَّاٰمَنَهُمْ مِّنْ خَوْفٍ",
 
 ]
 let terjemah = [
-    "Apakah dia (manusia) itu mengira bahwa tidak ada seorang pun yang berkuasa atasnya?",
-    "Apakah dia mengira bahwa tidak ada seorang pun yang melihatnya?",
-    "Adapun orang-orang yang kufur pada ayat-ayat Kami, merekalah golongan kiri.",
-    "demi bulan saat mengiringinya,",
+    "Katakanlah (Nabi Muhammad), “Aku berlindung kepada Tuhan manusia,",
     
-    "sungguh beruntung orang yang menyucikannya (jiwa itu)",
-    "(Kaum) Samud telah mendustakan (rasulnya) karena mereka melampaui batas",
-    "Demi matahari dan sinarnya pada waktu duha (ketika matahari naik sepenggalah),",
+    "Katakanlah (Nabi Muhammad), “Aku berlindung kepada Tuhan yang (menjaga) fajar (subuh)",
+    "dan (aku berlindung) dari kejahatan orang yang dengki apabila dia dengki.",
     
-    "sesungguhnya usahamu benar-benar beraneka ragam.",
-    "Adapun orang yang kikir dan merasa dirinya cukup (tidak perlu pertolongan Allah)",
-    "Kami akan memudahkannya menuju jalan kesengsaraan.",
-    "Hartanya tidak bermanfaat baginya apabila dia telah binasa.",
-    "Sesungguhnya Kamilah yang (berhak) memberi petunjuk.",
-    "Sesungguhnya milik Kamilah akhirat dan dunia.",
-    "Aku memperingatkanmu dengan neraka yang menyala-nyala.",
-    "Akan dijauhkan darinya (neraka) orang yang paling bertakwa,",
-    "Sungguh, kelak dia akan mendapatkan kepuasan (menerima balasan amalnya).",
+    "Katakanlah (Nabi Muhammad), Dialah Allah Yang Maha Esa.",
+    "Allah tempat meminta segala sesuatu.",
 
-    "Tuhanmu (Nabi Muhammad) tidak meninggalkan dan tidak (pula) membencimu.",
-    "Sungguh, akhirat itu lebih baik bagimu daripada yang permulaan (dunia).",
-    "Terhadap anak yatim, janganlah engkau berlaku sewenang-wenang.",
-    "Terhadap orang yang meminta-minta, janganlah engkau menghardik.",
-    "Terhadap nikmat Tuhanmu, nyatakanlah (dengan bersyukur).",
+    "Binasalah kedua tangan Abu Lahab dan benar-benar binasa dia",
+    "Tidaklah berguna baginya hartanya dan apa yang dia usahakan",
+    "Kelak dia (abu lahab) akan memasuki api yang bergejolak (neraka)",
+
+    "Apabila telah datang pertolongan Allah dan kemenangan",
+    "bertasbihlah dengan memuji Tuhanmu dan mohonlah ampun kepada-Nya",
+
+    "Katakanlah (Nabi Muhammad), “Wahai orang-orang kafir",
+    "aku tidak akan menyembah apa yang kamu sembah",
+    "Untukmu agamamu dan untukku agamaku",
+
+    "Sesungguhnya Kami telah memberimu (Nabi Muhammad) nikmat yang banyak",
+    "Maka, laksanakanlah salat karena Tuhanmu dan berkurbanlah!",
+    "Sesungguhnya orang yang membencimu (Nabi Muhammad), dialah yang terputus (dari rahmat Allah)",
+
+    "Tahukah kamu (orang) yang mendustakan agama?",
+    "Celakalah orang-orang yang melaksanakan salat, (yaitu) yang lalai terhadap salatnya",
+
+    "Disebabkan oleh kebiasaan orang-orang Quraisy",
+    "maka hendaklah mereka menyembah Tuhan (pemilik) rumah ini (Ka‘bah)",
+    "yang telah memberi mereka makanan untuk menghilangkan lapar dan mengamankan mereka dari rasa takut",
 
 ]
 let answer = [
-    "Al-Balad",
-    "Al-Balad",
-    "Al-Balad",
-    "Al-Balad",
+    "Al-Nas",
 
-    "Asy-Syams",
-    "Asy-Syams",
-    "Asy-Syams",
+    "Al-Falaq",
+    "Al-Falaq",
 
-    "Al-Lail",
-    "Al-Lail",
-    "Al-Lail",
-    "Al-Lail",
-    "Al-Lail",
-    "Al-Lail",
-    "Al-Lail",
-    "Al-Lail",
-    "Al-Lail",
+    "Al-Ikhlas",
+    "Al-Ikhlas",
 
-    "Ad-Dhuha",
-    "Ad-Dhuha",
-    "Ad-Dhuha",
-    "Ad-Dhuha",
-    "Ad-Dhuha",
+    "Al-Lahab",
+    "Al-Lahab",
+    "Al-Lahab",
+
+    "An-Nasr",
+    "An-Nasr",
+
+    "Al-Kafirun",
+    "Al-Kafirun",
+    "Al-Kafirun",
+
+    "Al-Kausar",
+    "Al-Kausar",
+    "Al-Kausar",
+
+    "Al-Ma'un",
+    "Al-Ma'un",
+
+    "Quraisy",
+    "Quraisy",
+    "Quraisy"
 
 ]
-let surah = ["Al-Balad","Al-Syams","Al-Lail","Ad-Dhuha","Asy-Syarh","At-Tin","Al-Alaq","Al-Qadr","Al-Bayyinah","Az-Zalzalah","Al-'Adiyat","Al-Qariah","At-Takasur","Al-'Asr","Al-Humazah","Al-Fil","Quraisy","Al-Ma'un","Al-Kausar","Al-Kafirun","An-Nasr","Al-Lahab","Al-Ikhlas","Al-Falaq","An-Nas"]
+let surah = ["Al-Nas","Al-Falaq","Al-Ikhlas","Al-Kafirun","An-Nasr","Al-Kausar","Al-Ma'un","Quraisy"]
 let total_quest = ayat.length;
+
+let correct = document.getElementById("correct"); 
+let incorrect = document.getElementById("incorrect"); 
 
 // first ayat
 let cur_id, thetruth;
@@ -91,8 +110,10 @@ function cek(id){
     console.log(id)
 
     if (id == thetruth){
+        correct.play()
         document.getElementById(id).style.background = "linear-gradient(124.35deg, rgba(209, 252, 213, 0.85) 17.93%, rgba(138, 226, 131, 0.85) 65.75%)";
     } else {
+        incorrect.play()
         document.getElementById(id).style.background = "linear-gradient(124.35deg, rgba(254, 194, 194, 0.85) 17.93%, rgba(222, 140, 140, 0.85) 65.75%)";
         document.getElementById(thetruth).style.background = "linear-gradient(124.35deg, rgba(209, 252, 213, 0.85) 17.93%, rgba(138, 226, 131, 0.85) 65.75%)";
     }
